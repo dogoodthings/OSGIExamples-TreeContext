@@ -1,0 +1,38 @@
+###############################################################################
+#
+#                E C T R   S Y S T E M   P R E F E R E N C E S
+#
+#                            Copyright (c) 2024
+#                    DSC Software AG, Karlsruhe, Germany
+#                            All rights reserved
+#
+###############################################################################
+
+###############################################################################
+#
+# ECTR uses the preference variables defined in this file to
+# define basic system characteristics.
+#
+# NOTE:    Please note that this file defines basic characteristics of a system
+#          implementation that should only be changed by persons familiar with
+#          the system configuration options.
+#
+###############################################################################
+#
+# General Rules:
+#
+# All Parameters defined in this file will be used in ECTR to control
+# the system behaviour. Parameters specified here may be referenced later in
+# this file by enclosing the parameter-name with @name@.
+#
+# It is possible to reference all system environment variables by enclosing
+# them in "@". Please note that in this file all file path specifications
+# should use forward slashes.
+#
+# *****************************************************************************
+# Add-On: example olinks context
+# *****************************************************************************
+
+
+obr.tree.isRootHandlesVisible.ctx_olinks = true
+obr.tree.isRootVisible.ctx_olinks = false

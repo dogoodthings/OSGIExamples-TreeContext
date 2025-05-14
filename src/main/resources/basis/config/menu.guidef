@@ -1,0 +1,35 @@
+###############################################################################
+#
+#                    E C T R   G U I   D E F I N I T I O N S
+#
+#                            Copyright (c) 2024
+#                    DSC Software AG, Karlsruhe, Germany
+#                            All rights reserved
+#
+###############################################################################
+
+###############################################################################
+#
+# -----------------------------------------------------------------------------
+#    USAGE:   The ECTR menu definitions make it easier to maintain and
+#             modify the ECTR user interface. Menu definition files must have
+#             .guidef as extension. They will be interpreted automatically by
+#             the dsc_StartPlm.exe process.
+#
+#
+#         +   A new section is indicated by a "+" as the first character in a
+#             line. This line then starts a block of associated definitions
+#             that ends with the next line that does not contain "=".
+#             Within this block, each line, where the "=" has the same
+#             indentation as the first line's "=" sign is considered to be a
+#             first level entry, all others are second level entries. Since
+#             the processing program uses the character count to determine the
+#             indentation, you MAY NOT USE TABS in this file, because this will
+#             result in different character count although the "=" signs appear
+#             to be aligned.
+#
+
+
++  om.custom.tool.ctx_olinks    = fnc.oo.treeSearch
+                                = fnc.tree.manager
+                                = fnc.obr.tree.export.to.excel

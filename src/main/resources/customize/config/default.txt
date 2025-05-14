@@ -1,0 +1,2 @@
+
+plm.om.context.enabled = @plm.om.context.enabled@; ctx_olinks
